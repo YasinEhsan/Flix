@@ -12,6 +12,7 @@
 		AA01DEAE223FF34A002D80E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA01DEAD223FF34A002D80E4 /* Assets.xcassets */; };
 		AA01DEB1223FF34A002D80E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA01DEAF223FF34A002D80E4 /* LaunchScreen.storyboard */; };
 		AA6FC6E722456CDB004419B6 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6FC6E622456CDB004419B6 /* MoviesViewController.swift */; };
+		AAC087BB2245CA33004166C0 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC087BA2245CA33004166C0 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AA01DEB0223FF34A002D80E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA01DEB2223FF34A002D80E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA6FC6E622456CDB004419B6 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MoviesViewController.swift; path = ../../flix/Flix/MoviesViewController.swift; sourceTree = "<group>"; };
+		AAC087BA2245CA33004166C0 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				AA01DEA6223FF34A002D80E4 /* AppDelegate.swift */,
 				AA01DEAA223FF34A002D80E4 /* Main.storyboard */,
+				AAC087BA2245CA33004166C0 /* MovieCell.swift */,
 				AA6FC6E622456CDB004419B6 /* MoviesViewController.swift */,
 				AA01DEAD223FF34A002D80E4 /* Assets.xcassets */,
 				AA01DEAF223FF34A002D80E4 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				AA01DEA7223FF34A002D80E4 /* AppDelegate.swift in Sources */,
 				AA6FC6E722456CDB004419B6 /* MoviesViewController.swift in Sources */,
+				AAC087BB2245CA33004166C0 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
